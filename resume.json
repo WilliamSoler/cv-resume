@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "version": "1.0",
+    "role_target": "Senior Backend Engineer (Payments)",
+    "last_updated": "2025-08-22"
+  },
+  "basics": {
+    "name": "Guillem Soler Suetta",
+    "title": "Senior Backend Engineer — Payments/Credit Core",
+    "location": "Buenos Aires, Argentina (GMT-3)",
+    "email": "you@example.com",
+    "phone": "+54 9 11 0000 0000",
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "github": "https://github.com/your-handle",
+    "website": "https://your-portfolio.site",
+    "english_level": "C1",
+    "summary": "Senior Backend Engineer specializing in payments and credit-core systems (Node.js/TypeScript • PostgreSQL • Kafka • AWS). Build idempotent APIs, SAGA/outbox workflows, and PCI-conscious tokenization at scale. Obsessed with reliability (SLOs), p95 latency, and crisp incident response. Available immediately."
+  },
+  "skills": [
+    { "category": "Languages", "items": ["TypeScript (Node.js)", "Python", "Go/Java (if applicable)"] },
+    { "category": "Data & Infra", "items": ["PostgreSQL", "Apache Kafka", "Redis", "Docker", "AWS (ECS/EKS/Lambda)", "Terraform"] },
+    { "category": "Patterns", "items": ["Idempotency", "SAGA", "Outbox", "Distributed transactions", "Event-driven architecture", "Event Sourcing (where appropriate)"] },
+    { "category": "Security", "items": ["PCI DSS", "Tokenization", "KMS/Vault", "PII masking", "Audit logging"] },
+    { "category": "Observability", "items": ["OpenTelemetry", "Prometheus/Grafana", "SLOs/Error budgets", "On-call/Incident response"] }
+  ],
+  "experience": [
+    {
+      "company": "Company A (Fintech)",
+      "location": "Buenos Aires, AR",
+      "title": "Senior Backend Engineer — Payments",
+      "start": "Mar 2022",
+      "end": "Present",
+      "bullets": [
+        "Built idempotent Payments API (Node/TypeScript • PostgreSQL • Kafka) using SAGA/outbox; eliminated duplicate charges and improved authorization success by <X.X percentage points>.",
+        "Designed a ledger and reconciliation pipeline (double-entry model) moving reconciliation from D+<N> to D+1 and reducing settlement deltas by <YY%>.",
+        "Added tracing and RED metrics; cut p95 latency by <XX%> and reduced MTTR by <YY%> via burn-rate alerts and incident playbooks.",
+        "Partnered with Risk/Fraud on retries/backoff and idempotency-key strategy; decreased false declines by <X%>."
+      ]
+    },
+    {
+      "company": "Company B (B2B SaaS/Fintech)",
+      "location": "Remote",
+      "title": "Backend Engineer",
+      "start": "Jan 2019",
+      "end": "Feb 2022",
+      "bullets": [
+        "Delivered multi-tenant billing and invoicing service; ensured ACID guarantees on writes and eventual consistency for projections.",
+        "Implemented tokenization with KMS-managed keys and audit trails; kept sensitive data out of logs and analytics.",
+        "Hardened CI/CD with canary releases and feature flags; supported zero-downtime migrations with online schema changes."
+      ]
+    },
+    {
+      "company": "Company C",
+      "location": "Buenos Aires, AR",
+      "title": "Software Engineer",
+      "start": "Jan 2016",
+      "end": "Dec 2018",
+      "bullets": [
+        "Built and maintained REST/GraphQL APIs and background workers; improved throughput and reduced error rates under peak load.",
+        "Wrote comprehensive integration and contract tests for critical services."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Payments Write Path (reference implementation)",
+      "summary": "Idempotency keys, transactional outbox → Kafka → consumer with retries/dead-letter; OpenTelemetry traces; healthchecks and CI.",
+      "tech": ["Node.js/TypeScript", "PostgreSQL", "Kafka", "Docker", "OpenTelemetry"],
+      "links": [
+        { "label": "Repo", "url": "https://github.com/YOUR-USER/payments-write-path" },
+        { "label": "3‑min Loom", "url": "https://www.loom.com/share/YOUR-LOOM-ID" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "YOUR UNIVERSITY (or remove this section)",
+      "degree": "B.S. in Computer Science",
+      "location": "Buenos Aires, AR",
+      "start": "2012",
+      "end": "2016"
+    }
+  ],
+  "certifications": [
+    { "name": "AWS Certified Developer – Associate", "year": "2023" }
+  ],
+  "languages": [
+    { "name": "English", "level": "C1" },
+    { "name": "Spanish", "level": "Native" }
+  ],
+  "keywords": [
+    "idempotent APIs",
+    "outbox pattern",
+    "SAGA",
+    "distributed transactions",
+    "Kafka",
+    "PostgreSQL",
+    "ACID",
+    "eventual consistency",
+    "PCI DSS",
+    "tokenization",
+    "KMS",
+    "Vault",
+    "reconciliation",
+    "settlement",
+    "observability",
+    "SLOs",
+    "OpenTelemetry",
+    "on-call",
+    "incident response"
+  ]
+}
